@@ -2,7 +2,7 @@ import pickle
 import pandas
 import streamlit as st
 
-pickle_in = open('clssifier.pkl','rb')
+pickle_in = open('clf.pkl','rb')
 clf = pickle.load(pickle_in)
 
 def prediction(age, fnlwgt, education , race,cpt_gain, cpt_loss, work_hours, sex_F, sex_M ):
