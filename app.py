@@ -14,7 +14,7 @@ def main():
     st.title('Income predictor')
 
     age = st.number_input("Age", value=None, min_value=0)
-    fnlwgt = st.number_input("fnlwgt",value=None, min_value=0)
+    fnlwgt = st.number_input("final weight",value=None, min_value=0)
     education = st.number_input("Education",value=None, min_value=0)
     cpt_gain = st.number_input("Capital Gain",value=None, min_value=0)
     cpt_loss = st.number_input('Capital Loss',value=None, min_value=0)
