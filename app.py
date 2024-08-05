@@ -15,7 +15,7 @@ def main():
 
     age = st.number_input("Age", value=None, min_value=0)
     fnlwgt = st.number_input("final weight",value=None, min_value=0)
-    education = st.number_input("Education(highest level of education achieved in numerical form)",value=None, min_value=0)
+    education = st.number_input("Education(education achieved in numerical form)",value=None, min_value=0)
     cpt_gain = st.number_input("Capital Gain",value=None, min_value=0)
     cpt_loss = st.number_input('Capital Loss',value=None, min_value=0)
     work_hours = st.number_input("Work hours per week",value=None, min_value=0)
